@@ -18,8 +18,10 @@
   src="https://js.sentry-cdn.com/17b0d1faae08e722ef3998c435d33d6b.min.js"
   crossorigin="anonymous"
 >
-    cosole.log(5/0);
-    console.log(8/)
+    function searchClicked(){
+        cosole.log(5/0);
+        console.log(8/)
+    }
 </script>
         <a href="#" class="logo">
             <img src="./image/pngegg.png" alt="logo">
@@ -136,7 +138,7 @@
     <section class="footer">
         <div class="search">
             <input type="text" class="search-input" placeholder="Search">
-            <button class="btn btn-primary">search</button>
+            <button class="btn btn-primary"onclick="searchClicked()">search</button>
         </div>
         <div class="share">
             <a href="#" class="fab fa-facebook"></a>
